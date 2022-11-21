@@ -1,6 +1,6 @@
 # HomeBoddy for homeowners
 
-![HomeBoddy](https://www.homebuddy.com/static/shared1/footer_hero.svg)
+![HomeBuddy](https://www.homebuddy.com/static/shared1/footer_hero.svg)
 
 ## Available Scripts
 
