@@ -51,13 +51,13 @@
 
 .headerBottom {
   &__text {
-    font-weight: bolder;
     font-size: 23px;
     line-height: 28px;
+    font-weight: 600;
 
     &_green {
       display: inline-block;
-      font-weight: bolder;
+      font-weight: 600;
       background-color: $green;
       border-radius: 5px;
       margin-left: 5px;
@@ -121,8 +121,10 @@
       margin: 30px 0 0 0;
     }
   }
+
   .headerTop {
-    padding-bottom: 40px;
+    padding-bottom: 90px;
+
     &__logo {
       width: 206px;
     }

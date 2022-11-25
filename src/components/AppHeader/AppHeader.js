@@ -18,13 +18,13 @@ export const AppHeader = () => {
           </div>
         </div>
         <div className='headerBottom'>
-          <div className='headerBottom__text'>
+          <h1 className='headerBottom__text'>
             <p>How  
               <span className='headerBottom__text_green'>Over 410,000 Americans</span> Increased Their Property Value 
               <span className='headerBottom__text_green'> In Under 6 Hours*</span> With This Simple Upgrade.
             </p>
             <p className='headerBottom__description'>Ideal for detached and semi-detached homes with sloped roofs.</p>
-          </div>
+          </h1>
           <div className='headerBottom__img'>
             <img src={header} alt="house" className='headerBottom__img_big'/>
             <a href='https://google.com' target="_blank"><img src={nbc} alt="nbc" className='headerBottom__img_sm'/></a>

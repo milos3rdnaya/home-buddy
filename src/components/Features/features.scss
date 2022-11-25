@@ -4,7 +4,7 @@
   padding: 10px 16px 52px 20px;
 
   &__item {
-    padding: 40px 0 40px 70px;
+    padding: 40px 0 20px 70px;
     background-repeat: no-repeat;
     background-position: center left;
     color: #263238;
@@ -13,6 +13,7 @@
     line-height: 24px;
 
     span {
+      font-weight: 500;
       display: inline-block;
     }
 
