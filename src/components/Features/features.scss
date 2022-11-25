@@ -1,0 +1,64 @@
+.featuresList {
+  padding: 10px 16px 52px 20px;
+
+  &__item {
+    padding: 40px 0 40px 70px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    color: #263238;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    &_check {
+      background-image: url('../../assets/img/check.svg');
+    }
+
+    &_home {
+      background-image: url('../../assets/img/home.svg');
+    }
+
+    &_pig {
+      background-image: url('../../assets/img/swin.svg');
+    }
+
+    &_star {
+      background-image: url('../../assets/img/star.svg');
+      position: relative;
+      padding: 20px 0 20px 150px;
+      &::before {
+        content: '';
+        width: 80px;
+        height: 24px;
+        position: absolute;
+        left: 65px;
+        background-image: url('../../assets/img/stars.svg');
+        background-repeat: no-repeat;
+        background-position: center left;
+      }
+    }
+  }
+}
+
+.featuresPig {
+  background-color: #F5F6FE;
+  padding: 8px 8px 8px 40px;
+  color: #263238;
+  border: 1px solid #FA8C16;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 327px;
+  background-image: url('../../assets/img/mini-swin.svg');
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  margin-bottom: 25px;
+}
+
+.container_features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
