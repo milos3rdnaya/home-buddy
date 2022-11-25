@@ -2,7 +2,7 @@
 
 .header {
   background-color: $main-blue;
-  padding: 8px 16px 0 16px;
+  padding: 8px 16px 52px 16px;
   width: 100%;
   * {
     color: #fff;
@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   width: 100%;
   background-color: $main-blue;
 
@@ -44,5 +44,46 @@
     font-weight: 500;
     font-size: 14px;
     text-align: right;
+  }
+}
+
+.headerBottom {
+  &__text {
+    font-weight: bolder;
+    font-size: 23px;
+    line-height: 28px;
+
+    &_green {
+      display: inline-block;
+      font-weight: bolder;
+      background-color: $green;
+      border-radius: 5px;
+      margin-left: 5px;
+    }
+  }
+
+  &__description {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 16px 0;
+  }
+}
+
+.headerBottom__img {
+  position: relative;
+
+  &_big {
+    width: 100%;
+    height: auto;
+  }
+
+  &_sm {
+    width: 102px;
+    height: 39px;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
   }
 }
