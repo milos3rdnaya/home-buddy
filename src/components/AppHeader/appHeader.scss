@@ -4,9 +4,11 @@
   background-color: $main-blue;
   padding: 8px 16px 52px 16px;
   width: 100%;
+
   * {
     color: #fff;
   }
+
   .container {
     background-color: $main-blue;
   }
@@ -59,6 +61,7 @@
       background-color: $green;
       border-radius: 5px;
       margin-left: 5px;
+      line-height: 25px;
     }
   }
 
@@ -85,5 +88,47 @@
     position: absolute;
     right: 8px;
     bottom: 8px;
+  }
+}
+
+// Media 
+@media screen and (min-width: $breakpoint) {
+  .headerBottom {
+    display: flex;
+    justify-content: space-between;
+
+  &__text {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    max-width: 565px;
+    &_green { 
+      line-height: 36px;
+      }
+    }
+
+    &__img {
+      &_sm {
+        width: 127px;
+        height: 48px;
+      }
+    }
+
+    &__description {
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 32px;
+      margin: 30px 0 0 0;
+    }
+  }
+  .headerTop {
+    padding-bottom: 40px;
+    &__logo {
+      width: 206px;
+    }
+    &__small {
+      font-size: 10px;
+      line-height: 12px;
+    }
   }
 }

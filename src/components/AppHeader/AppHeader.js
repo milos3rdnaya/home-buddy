@@ -5,7 +5,7 @@ import nbc from '../../assets/img/nbc.png';
 export const AppHeader = () => {
 	return (
 		<header className="header">
-      <div className='container'>
+      <div className='container container_header'>
         <div className='headerTop'>
           <div className='headerTop__logo'>
             <a href='https://www.homebuddy.com/'>
@@ -27,7 +27,7 @@ export const AppHeader = () => {
           </div>
           <div className='headerBottom__img'>
             <img src={header} alt="house" className='headerBottom__img_big'/>
-            <img src={nbc} alt="nbc" className='headerBottom__img_sm'/>
+            <a href='https://google.com' target="_blank"><img src={nbc} alt="nbc" className='headerBottom__img_sm'/></a>
           </div>
         </div>
       </div>
