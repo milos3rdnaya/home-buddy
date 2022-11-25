@@ -1,6 +1,7 @@
 import '../assets/styles/main.scss';
 import { AppHeader } from './AppHeader/AppHeader';
 import { Features } from './Features/Features';
+import { FormBlock } from './FormBlock/FormBlock';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <AppHeader />
       <main>
         <Features />
+        <FormBlock />
       </main>
     </div>
   );
