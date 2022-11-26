@@ -1,7 +1,7 @@
 import '../assets/styles/main.scss';
 import { AppHeader } from './AppHeader/AppHeader';
 import { Features } from './Features/Features';
-import { FormBlock } from './FormBlock/FormBlock';
+import { ZipCode } from './ZipCode/ZipCode';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <AppHeader />
       <main>
         <Features />
-        <FormBlock />
+        <ZipCode />
       </main>
     </div>
   );
