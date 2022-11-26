@@ -23,12 +23,17 @@
 
   &__item {
     margin-bottom: 16px;
+    
     a {
       color: #fff;
       font-weight: 500;
       font-size: 14px;
       line-height: 16px;
       margin-bottom: 16px;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
     &:last-child {
       margin-bottom: 0;

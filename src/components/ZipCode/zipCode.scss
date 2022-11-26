@@ -8,12 +8,26 @@
   padding: 24px 24px 48px 24px;
   margin-bottom: 44px;
 
+  @media screen and (min-width: $breakpoint) {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+    padding: 24px 24px 80px 24px;
+    background-image: url('../../assets/img/zip-bg.png');
+  }
+
   &__header {
     color: #fff;
     font-weight: 700;
     font-size: 25px;
     line-height: 36px;
     margin-bottom: 15px;
+
+    @media screen and (min-width: $breakpoint) {
+      text-align: center;
+      margin-bottom: 32px;
+      padding-top: 120px;
+    }
   }
 }
 
@@ -21,6 +35,13 @@
   background: #FFFFFF;
   border-radius: 16px;
   padding: 24px 16px;
+
+  @media screen and (min-width: $breakpoint) {
+    max-width: 978px;
+    padding:0;
+    margin: 0 auto;
+    margin-top: 188px;
+  }
 
   &__label {
     font-weight: 500;
@@ -30,6 +51,10 @@
     color: #000000;
     display: block;
     margin-bottom: 15px;
+
+    @media screen and (min-width: $breakpoint) {
+      padding-top: 48px;
+    }
   }
 
   &__small {
@@ -48,5 +73,13 @@
 
   .button {
     width: 100%;
+  }
+
+  &__wrapper {
+    @media screen and (min-width: $breakpoint) {
+      max-width: 320px;
+      margin: 0 auto;
+      padding-bottom: 48px;
+    }
   }
 }
