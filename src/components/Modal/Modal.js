@@ -10,8 +10,10 @@ export function Modal() {
         </header>
         <h3>Are you homeowner or authrized to make property changes?</h3>
         <div className="modalAnswers">
-          <button className="modalAnswers__yes">Yes</button>
-          <button className="modalAnswers__no">No</button>
+          <button className="modalAnswers__yes"> <span>Yes</span></button>
+          <button className="modalAnswers__no"><span>No</span></button>
+        </div>
+        <div className="modalAnswers__btn">
           <button className="modalAnswers__button button">Next</button>
         </div>
       </div>
