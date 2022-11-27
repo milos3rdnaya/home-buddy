@@ -4,6 +4,7 @@ import { AppHeader } from './AppHeader/AppHeader';
 import { Features } from './Features/Features';
 import { ZipCode } from './ZipCode/ZipCode';
 import { AppFooter } from './AppFooter/AppFooter';
+import { Modal} from './Modal/Modal';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ZipCode />
       </main>
       <AppFooter/>
+      <Modal/>
     </div>
   );
 }

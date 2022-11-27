@@ -1,4 +1,4 @@
-# HomeBoddy for homeowners
+# HomeBuddy for homeowners
 
 ![HomeBuddy](https://www.homebuddy.com/static/shared1/footer_hero.svg)
 
