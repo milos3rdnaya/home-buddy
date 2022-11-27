@@ -14,7 +14,7 @@ export const AppHeader = () => {
             </a>
           </div>
           <div className='headerTop__anchor'>
-            <a href='#'>Link to form</a>
+            <a href='#zipCode'>Link to form</a>
           </div>
         </div>
         <div className='headerBottom'>

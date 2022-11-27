@@ -2,7 +2,7 @@ import './zipCode.scss';
 
 export function ZipCode() {
   return (
-    <section className="zipCode">
+    <section className="zipCode" id="zipCode">
       <div className="container container_zipCode">
         <div className="zipCodeForm">
           <div className="zipCodeForm__wrapper">          

@@ -25,23 +25,17 @@ input {
   border-radius: 4px;
   outline: none;
 
-  &:active {
-    + span {
-      color: $grey;
-    }
-  }
-  
   &:hover {
     color: $main-blue;
     border: 1px solid #6D87F1;
     background: #F5F6FE;
   }
 
-  &:focus {
+  &:not(:placeholder-shown) {
     border: 1px solid $main-blue;
     color: #222222;
 
-    + span {
+    ~ span {
       top: 5px;
       left: 16px;
       font-size: 11px;
