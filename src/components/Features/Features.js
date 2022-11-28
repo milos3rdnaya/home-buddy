@@ -1,5 +1,4 @@
 import './features.scss';
-import { PiggyLabel } from '../PiggyLabel/PiggyLabel';
 
 export function Features() {
   return (
@@ -11,7 +10,9 @@ export function Features() {
           <li className="featuresList__item featuresList__item_pig"><span>Installs over existing gutters saving you thousands</span></li>
           <li className="featuresList__item featuresList__item_star"><span>Сustomer rating</span></li>
         </ul>
-        <PiggyLabel/>
+        <div className="piggyLabel">
+          <span>You will be surprised how affordable gutter guards are!</span>
+        </div>
       </div>
     </section>
   );
