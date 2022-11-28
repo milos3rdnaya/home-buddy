@@ -70,12 +70,123 @@
   }
 }
 
+.modalForm {
+  &__header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    border-bottom: 4px solid $green;
+  }
+
+  h3 {
+    margin-bottom: 8px;
+  }
+
+  &__choice {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #646464;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    b {
+      margin-left: 3px;
+    }
+
+    @media screen and (min-width: $breakpoint) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__safe {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #646464;
+    transform: translateX(-50%);
+    color: #646464;
+    position: relative;
+    left: 50%;
+    line-height: 20px;
+    margin-top: 16px;
+    background-image: url('../../assets/img/lock.svg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+  }
+}
+
+.modalInputs {
+  width: 100%;
+  padding: 0 16px;
+
+  @media screen and (min-width: $breakpoint) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .input-wrapper {
+    width: 100%;
+    &:first-child {
+      margin-bottom: 8px;
+    }
+    &:last-child {
+      margin-bottom: 16px;
+    }
+    @media screen and (min-width: $breakpoint) {
+      width: auto;
+      &:first-child {
+        margin-bottom: 16px;
+      }
+      &:last-child {
+        margin-bottom: 24px;
+      }
+      input {
+        width: 250px;
+      }
+    }
+  }
+}
+
 .modalAnswers {
   padding: 0 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  &__btn {
+    width: 100%;
+    padding: 0 16px;
+    .button {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint) {
+    &__btn {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .button {
+        width: 87px;
+      }
+    }
+  }
 
   &__yes,
   &__no {
@@ -94,6 +205,9 @@
     background-repeat: no-repeat;
     background-position: 16px 16px;
     background-size: 40px;
+    &:hover {
+      border-color: $orange;
+    }
   }
 
   @media screen and (min-width: $breakpoint) {
@@ -118,6 +232,7 @@
         line-height: 20px;
       }
     }
+
     &__yes {
       margin-right: 16px;
     }
@@ -130,17 +245,5 @@
   &__no {
     background-image: url('../../assets/img/no.svg');
     margin-bottom: 16px;
-  }
-
-  &__button {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    margin-left: 16px;
-    margin-right: 16px;;
-  }
-
-  &__btn {
-    margin-right: 30px;
   }
 }
