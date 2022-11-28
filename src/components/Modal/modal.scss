@@ -1,6 +1,7 @@
 @import '../../assets/styles/common/vars';
 
-.modal {
+.modalChoiceWrapper,
+.modalFormWrapper {
   width: 100%;
   height: 100vh;
   background-color: #fff;
@@ -9,7 +10,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  display: none;
 
   h3 {
     max-width: 760px;
@@ -189,8 +189,7 @@
     }
   }
 
-  &__yes,
-  &__no {
+  &__btn {
     width: 100%;
     border: 2px solid #F5F6FE;
     border-radius: 8px;
@@ -209,14 +208,23 @@
     &:hover {
       border-color: $orange;
     }
+    &_yes {
+      background-image: url('../../assets/img/yes.svg');
+      margin-right: 16px;
+      &_active {
+        border-color: $orange;
+      }
+    }
+    &_no {
+      background-image: url('../../assets/img/no.svg');
+    }
   }
 
   @media screen and (min-width: $breakpoint) {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    &__yes,
-    &__no {
+    &__btn {
       padding: 0;
       width: 168px;
       height: 140px;
@@ -233,7 +241,6 @@
         line-height: 20px;
       }
     }
-
     &__yes {
       margin-right: 16px;
     }
