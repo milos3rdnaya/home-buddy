@@ -39,11 +39,11 @@ export function Modal({
 								<span>No</span>
 							</button>
 						</div>
-						<div className="modalAnswers__btn">
+						<div className="modalAnswers__next">
 							<button
 								type="button"
 								onClick={onSubmitNext}
-								className="modalAnswers__button button"
+								className="button"
 							>
 								Next
 							</button>
@@ -54,7 +54,7 @@ export function Modal({
 				<form className="modalFormWrapper" onSubmit={onSubmitNext}>
 					<div className="modalForm">
 						<header className="modalForm__header">
-							<button onClick={closeModal} className="close"></button>
+							<button onClick={closeModal} className="close"/>
 						</header>
 						<h3>Who should I prepare this estimate for?</h3>
 						<small className="modalForm__choice">
@@ -65,7 +65,7 @@ export function Modal({
 								<input
 									className="input"
 									type="text"
-									required
+									required="true"
 									minLength={2}
 									maxLength={30}
 									placeholder="  Full name"
@@ -76,14 +76,14 @@ export function Modal({
 								<input
 									className="input"
 									type="email"
-									required
+									required="true"
 									placeholder="  Email address"
 								/>
 								<span>Email address</span>
 							</div>
 						</div>
-						<div className="modalAnswers__btn">
-							<button type="submit" className="modalAnswers__button button">
+						<div className="modalAnswers__next">
+							<button type="submit" className="button">
 								Next
 							</button>
 						</div>
