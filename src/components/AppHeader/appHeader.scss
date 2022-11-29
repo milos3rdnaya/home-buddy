@@ -2,7 +2,7 @@
 
 .header {
   background-color: $main-blue;
-  padding: 8px 16px 52px 16px;
+  padding: 16px 16px 52px 16px;
   width: 100%;
 
   * {
@@ -28,6 +28,11 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
+
+    img {
+      width: 206px;
+      height: 37px;
+    }
   }
 
   &__small {
@@ -59,12 +64,14 @@
     font-weight: 600;
 
     &_green {
-      display: inline-block;
+      display: inline;
       font-weight: 600;
       background-color: $green;
       border-radius: 5px;
       margin-left: 5px;
       line-height: 25px;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
     }
   }
 
