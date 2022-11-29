@@ -8,7 +8,7 @@ export function Modal({
 	step = 1,
 	onYes = (f) => f,
 	onNo = (f) => f,
-	answer = null,
+	answer,
 }) {
 	if (open === false) {return};
 
@@ -58,14 +58,14 @@ export function Modal({
 						</header>
 						<h3>Who should I prepare this estimate for?</h3>
 						<small className="modalForm__choice">
-							Your choice: <b>{answer}</b>
+							Your choice: { answer ? 'Yes' : 'No' }
 						</small>
 						<div className="modalInputs">
 							<div className="input-wrapper">
 								<input
 									className="input"
 									type="text"
-									required="true"
+									required={true}
 									minLength={2}
 									maxLength={30}
 									placeholder="  Full name"
@@ -76,7 +76,7 @@ export function Modal({
 								<input
 									className="input"
 									type="email"
-									required="true"
+									required={true}
 									placeholder="  Email address"
 								/>
 								<span>Email address</span>

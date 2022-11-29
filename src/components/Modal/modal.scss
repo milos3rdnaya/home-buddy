@@ -205,6 +205,11 @@
     background-repeat: no-repeat;
     background-position: 16px 16px;
     background-size: 40px;
+
+    &_active {
+      border-color: $orange;
+    }
+
     &:hover {
       border-color: $orange;
     }

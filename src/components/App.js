@@ -10,7 +10,7 @@ import { Modal } from "./Modal/Modal";
 function App() {
 	const [isModalOpen, setModalOpen] = useState(false);
 	const [step, setStep] = useState(1);
-	const [answer, setAnswer] = useState(null);
+	const [answer, setAnswer] = useState(true);
 
 	const submitZip = (event) => {
 		event.preventDefault();
@@ -38,11 +38,13 @@ function App() {
 	const onYes = (event) => {
 		event.stopPropagation();
 		setAnswer(true);
+		console.log(answer)
 	};
 
 	const onNo = (event) => {
 		event.stopPropagation();
 		setAnswer(false);
+		console.log(answer)
 	};
 
 	return (

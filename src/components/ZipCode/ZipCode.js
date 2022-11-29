@@ -11,7 +11,7 @@ export function ZipCode({ openModal = (f) => f }) {
 							<input
 								className="input"
 								type="text"
-								required="true"
+								required={true}
 								pattern="\d{4,6}"
 								minLength={4}
 								maxLength={6}
