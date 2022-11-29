@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home-buddy/static/css/main.e0f440d4.css",
+    "main.js": "/home-buddy/static/js/main.778e8434.js",
+    "static/media/header.png": "/home-buddy/static/media/header.6c41218deaca886dbc46.png",
+    "static/media/zip-bg.png": "/home-buddy/static/media/zip-bg.0fc5545b8b5965b56ca4.png",
+    "static/media/check.svg": "/home-buddy/static/media/check.40f67e10d16547c66c09.svg",
+    "static/media/star.svg": "/home-buddy/static/media/star.e1d91f12c4dadf6e813c.svg",
+    "static/media/home.svg": "/home-buddy/static/media/home.0bb0ca5f5bd190074337.svg",
+    "static/media/swin.svg": "/home-buddy/static/media/swin.2a68efb0962b6ba8fc44.svg",
+    "static/media/stars.svg": "/home-buddy/static/media/stars.4c1e8ab4e2348d67e11a.svg",
+    "static/media/lock.svg": "/home-buddy/static/media/lock.f6a9e06605c3020fef21.svg",
+    "index.html": "/home-buddy/index.html",
+    "static/media/close.svg": "/home-buddy/static/media/close.a253b562386bace28928.svg",
+    "static/media/mini-swin.svg": "/home-buddy/static/media/mini-swin.40bfcb310f590a62a737.svg",
+    "static/media/no.svg": "/home-buddy/static/media/no.76817a4e3c7ec39e2dd9.svg",
+    "static/media/yes.svg": "/home-buddy/static/media/yes.3236269bae35ff5c2305.svg",
+    "main.e0f440d4.css.map": "/home-buddy/static/css/main.e0f440d4.css.map",
+    "main.778e8434.js.map": "/home-buddy/static/js/main.778e8434.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0f440d4.css",
+    "static/js/main.778e8434.js"
+  ]
+}
