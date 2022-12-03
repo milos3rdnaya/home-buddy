@@ -41,6 +41,9 @@
     ]
   },
   "devDependencies": {
+    "@sass-fairy/math": "^1.0.3",
+    "eslint": "^8.29.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
     "rome": "^10.0.1",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",

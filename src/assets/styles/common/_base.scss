@@ -1,4 +1,6 @@
-@import url('https://fonts.cdnfonts.com/css/montserrat');
+:root {
+  font-size: 16px;
+}
 
 *,
 *::before,
@@ -7,7 +9,6 @@
   margin: 0;
   position: relative;
   font-weight: normal;
-  transition: all .3s;
 }
 
 ul {
@@ -37,6 +38,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1202px;
   margin: 0 auto;
+  padding: 0 16px;
 }

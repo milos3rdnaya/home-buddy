@@ -5,20 +5,24 @@ import nbc from "../../assets/img/nbc.png";
 export const AppHeader = () => {
 	return (
 		<header className="header">
-			<div className='container container_header'>
+			<div className='container header__container'>
 				<div className='headerTop'>
-					<div className='headerTop__logo'>
-						<a href='https://www.homebuddy.com/'>
+						<a href='https://www.homebuddy.com/' className='headerTop__logo'>
 							<img
 								src="https://www.homebuddy.com/static/shared1/homebuddy-logo.svg"
 								alt="homebuddy logo"
+								width="163"
+								height="24"
 							/>
 							<small className='headerTop__small'>for homeowners</small>
 						</a>
-					</div>
-					<div className='headerTop__anchor'>
-						<a href='#zipCode'>Link to form</a>
-					</div>
+						<nav className='menu headerTop__menu'>
+							<ul className='menu__list'>
+								<li className='menu__item'>
+									<a className='menu__anchor' href='#zipCode'>Link to form</a>
+								</li>
+							</ul>
+						</nav>
 				</div>
 				<div className='headerBottom'>
 					<h1 className='headerBottom__text'>
